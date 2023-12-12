@@ -1,0 +1,31 @@
+.welcome {
+    background-color: #141414; 
+    padding: 60px 0;
+    color: #fff; 
+}
+
+.welcome .container {
+    text-align: center;
+}
+
+.welcome-content {
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.role {
+    font-family: 'Montserrat', sans-serif; 
+    font-size: 2em;
+    line-height: 1.5;
+    margin-bottom: 30px;
+}
+
+.role span {
+    display: inline-block;
+    width: 100%;
+    height: 2px;
+    background-color: #0073FF; 
+    margin-top: 15px; 
+}
+
+

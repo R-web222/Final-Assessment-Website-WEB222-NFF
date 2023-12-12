@@ -1,0 +1,61 @@
+.expertise {
+    background-color: #0073FF; 
+    padding: 60px 0;
+    color: #fff; 
+}
+
+.expertise .container {
+    text-align: center;
+}
+
+.expertise .section-title {
+    font-family: 'Amagro', sans-serif; 
+    font-size: 2.5em;
+    color: #FFDBBC; 
+    margin-bottom: 30px;
+}
+
+.expertise-content {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.service-card {
+    max-width: 300px;
+    margin: 20px;
+    background-color: #141414; 
+    border-radius: 10px;
+    padding: 20px;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.5); 
+    text-align: left;
+    transition: transform 0.3s ease;
+}
+
+.service-card:hover {
+    transform: scale(1.05);
+}
+
+.service-box {
+    margin-top: 20px;
+}
+
+.service-box i {
+    font-size: 2em;
+    color: #0073FF; 
+}
+
+.service-title {
+    font-family: 'Montserrat', sans-serif; 
+    font-size: 1.5em;
+    color: #FFDBBC; 
+    margin-top: 10px;
+}
+
+.service-box p {
+    font-family: 'Libre Baskerville', serif;
+    font-size: 1em;
+    color: #ddd; 
+    line-height: 1.6;
+    margin-top: 10px;
+}

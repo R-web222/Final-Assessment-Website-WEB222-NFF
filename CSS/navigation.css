@@ -1,0 +1,82 @@
+.main-navigation {
+    background-color: #141414; 
+    padding: 10px 0;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    z-index: 1000;
+}
+
+.main-navigation .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.main-navigation .logo {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1.5em;
+    color: #FFDBBC; 
+    margin: 0;
+}
+
+.main-navigation .logo a {
+    text-decoration: none;
+    color: #FFDBBC; 
+}
+
+.main-navigation .logo span {
+    color: #0073FF; 
+}
+
+.main-navigation .menu-list {
+    list-style: none;
+    display: flex;
+    margin: 0;
+}
+
+.main-navigation .menu-list li {
+    margin-right: 20px;
+}
+
+.main-navigation .menu-list a {
+    text-decoration: none;
+    font-family: 'Libre Baskerville', serif;
+    font-size: 1em;
+    color: #FFDBBC; 
+    transition: color 0.3s ease;
+}
+
+.main-navigation .menu-list a:hover {
+    color: #0073FF; 
+}
+
+.main-navigation .menu-toggle {
+    display: none;
+    font-size: 1.5em;
+    color: #FFDBBC; 
+    cursor: pointer;
+}
+
+@media screen and (max-width: 768px) {
+    .main-navigation .menu-list {
+        display: none;
+        flex-direction: column;
+        position: absolute;
+        top: 60px;
+        left: 0;
+        right: 0;
+        background-color: #141414; 
+        padding: 20px;
+        text-align: center;
+        z-index: 999;
+    }
+
+    .main-navigation .menu-list.show {
+        display: flex;
+    }
+
+    .main-navigation .menu-toggle {
+        display: block;
+    }
+}

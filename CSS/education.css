@@ -1,0 +1,52 @@
+.education {
+    background-color: #88B0FF; 
+    padding: 60px 0;
+    color: #141414; 
+}
+
+.education .container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.education .section-title {
+    font-family: 'Montserrat', sans-serif; 
+    font-size: 2.5em;
+    color: #141414; 
+    margin-bottom: 30px;
+}
+
+.education .education-content {
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+}
+
+.education .school-info {
+    max-width: 300px;
+    text-align: center;
+    padding: 20px;
+    background-color: #141414; 
+    margin: 10px;
+    transition: background-color 0.3s ease;
+}
+
+.education .school-info:hover {
+    background-color: #1E1E1E; 
+}
+
+.education .school-info h3 {
+    font-family: 'Montserrat', sans-serif; 
+    font-size: 1.5em;
+    color: #88B0FF; 
+    margin-bottom: 10px;
+}
+
+.education .school-info p {
+    font-family: 'Quicksand', sans-serif; 
+    font-size: 1em;
+    color: #88B0FF; 
+    margin: 5px 0;
+}
